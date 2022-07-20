@@ -7,7 +7,7 @@ export default function Navbar() {
         <nav className="navbar">
             <div>
                 <Link className="logo" to="/">
-                    <h3>Meu Blog</h3>
+                    <h3>Blog</h3>
                 </Link>
             </div>
 

@@ -5,13 +5,15 @@
     margin-top: 80px;
 }
 
-.featured-post-container div img {
-    width: 45vw;
-    border-radius: 6px;
-}
-
 .featured-post-container div:nth-child(2) {
     max-width: 35vw;
+}
+
+.featured-post-image {
+    width: 45vw;
+    height: 23vw;
+    border-radius: 6px;
+    object-fit: cover;
 }
 
 .featured-post-date {
@@ -20,6 +22,8 @@
 
 .featured-post-title {
     margin-top: 20px;
+    color: #222830;
+    font-weight: bold;
 }
 
 .featured-post-description {

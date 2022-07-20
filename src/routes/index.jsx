@@ -8,7 +8,6 @@ export default function ApplicationRoutes() {
             <Navbar />
             <Routes>
                 <Route path="/" element={<Home />} />
-                <Route path="/post" element={<h1>Post</h1>} />
             </Routes>
         </BrowserRouter>
     );
